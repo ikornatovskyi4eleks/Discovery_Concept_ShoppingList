@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+        
+			<defs>
+				<clipPath id="clip-shape">
+					<path d="M 256,0 C 51.2,0 0,51.2 0,256 C 0,460.8 51.2,512 256,512 C 460.8,512 512,460.8 512,256 C 512,51.2 460.8,0 256,0 Z" />
+				</clipPath>
+			</defs>
+		
+		<defs>
+			
+				<filter id="shadow-0" x="-200%" y="-200%" width="500%" height="500%">
+					<feDropShadow
+						dx="0"
+						dy="0.4235294117647059"
+						stdDeviation="0.5647058823529412"
+						flood-color="#000000"
+						flood-opacity="0.18"
+					/>
+				</filter>
+			
+		</defs>
+        <g clip-path="url(#clip-shape)">
+            
+            <defs>
+                <linearGradient id="bg-grad" x1="0%" y1="100%" x2="0%" y2="0%">
+                    <stop offset="0%" stop-color="#25d366" /><stop offset="100%" stop-color="#128c7e" />
+                </linearGradient>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#bg-grad)" />
+        
+			
+            <g transform="translate(256, 256) scale(14.166666666666666, 14.166666666666666) rotate(0) translate(-12, -12)" opacity="1" style="mix-blend-mode: normal" filter="url(#shadow-0)">
+			<title xmlns="http://www.w3.org/2000/svg" fill="#ffffff">mdi:shopping</title>
+<path xmlns="http://www.w3.org/2000/svg" fill="#ffffff" d="M12 13a5 5 0 0 1-5-5h2a3 3 0 0 0 3 3a3 3 0 0 0 3-3h2a5 5 0 0 1-5 5m0-10a3 3 0 0 1 3 3H9a3 3 0 0 1 3-3m7 3h-2a5 5 0 0 0-5-5a5 5 0 0 0-5 5H5c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2"/>
+		</g>
+			
+        </g>
+    </svg>
