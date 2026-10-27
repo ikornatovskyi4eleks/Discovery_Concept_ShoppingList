@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 
 /**
  * The open-product-question note required by Design.md.
- * Fixed bottom-right, a theme text colour at reduced opacity, no new hue.
+ * Fixed bottom-centre, a theme text colour at reduced opacity, no new hue.
  * Collapsed by default; expands on click. It is not a logo.
  */
 
@@ -35,8 +35,9 @@ export default function Watermark() {
       aria-label="Open product question"
       sx={{
         position: 'fixed',
-        right: 3,
+        left: '50%',
         bottom: 3,
+        transform: 'translateX(-50%)',
         maxWidth: (t) => t.spacing(38),
         color: 'text.secondary',
         opacity: 0.56,
