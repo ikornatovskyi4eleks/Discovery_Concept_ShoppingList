@@ -184,7 +184,7 @@ export default function App() {
           {loadState === 'error' && (
             <Box sx={{ borderTop: 1, borderColor: 'divider', px: 3, py: 8, textAlign: 'center' }}>
               <Stack spacing={3} sx={{ alignItems: 'center' }}>
-                <Typography variant="body2" color="text.secondary">
+                <Typography variant="body2" color="textSecondary">
                   {MESSAGES.loadFailed}
                 </Typography>
                 <Button variant="contained" color="primary" onClick={reload}>
@@ -210,10 +210,10 @@ export default function App() {
                 <EmptyBasket />
 
                 <Box>
-                  <Typography variant="h6" component="p" color="text.secondary" sx={{ mb: 1 }}>
+                  <Typography variant="h6" component="p" color="textSecondary" sx={{ mb: 1 }}>
                     {MESSAGES.emptyList}
                   </Typography>
-                  <Typography variant="body2" color="text.secondary">
+                  <Typography variant="body2" color="textSecondary">
                     Add the first item you need to buy.
                   </Typography>
                 </Box>
@@ -233,7 +233,7 @@ export default function App() {
           {/* No matching items (S2). The selected filter stays selected. */}
           {ready && hasItems && visibleItems.length === 0 && (
             <Box sx={{ borderTop: 1, borderColor: 'divider', px: 3, py: 8, textAlign: 'center' }}>
-              <Typography variant="body2" color="text.secondary">
+              <Typography variant="body2" color="textSecondary">
                 {MESSAGES.noMatch}
               </Typography>
             </Box>
